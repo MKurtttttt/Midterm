@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Form</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Form</h1>
+    <form action="/getadminForm" method="GET">
+      <label for="adminID">Admin ID</label>
+      <input type="text" id="adminID" name="adminID" />
+      <br>
+
+      <label for="firstNameAdmin">First Name</label>
+      <input type="text" id="firstNameAdmin" name="firstName" />
+      <br>
+
+      <label for="lastNameAdmin">Last Name</label>
+      <input type="text" id="lastNameAdmin" name="lastName" />
+      <br>
+
+      <label for="department">Department</label>
+      <input type="text" id="department" name="department" />
+      <br>
+
+      <button type="submit">Submit Admin</button>
+    </form>
+
+    <p><a href="/">Back to Home</a></p>
+  </div>
+</body>
+</html>
